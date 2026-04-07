@@ -1,0 +1,20 @@
+PROGRAM monPro
+
+INTEGER x, y;
+REAL z;
+LOGICAL flag;
+x = 5;
+y = -3;
+z = 2.5;
+IN(x);
+OUT(x, "valeur de x");
+EQUIVALENCE flag = TRUE;
+IF (x GT 3) THEN {
+    OUT(x);
+} ELSE {
+    OUT("petit");
+} ENDIF;
+DOWHILE (x GT 0) {
+    x = x - 1;
+} ENDDO;
+END
